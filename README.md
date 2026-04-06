@@ -1,21 +1,12 @@
 #  Kcal-calculator-AI
 
-**AI-Powered Food Classification & Calorie Estimation**  
-**AI による食品分類・カロリー推定システム**
-
----
-
-##  Language / 言語
-
 - [English](#english)
 - [日本語](#japanese)
 
----
 
 <a name="english"></a>
-# 🇬🇧 English
 
-## Introduction — What is this?
+## Introduction 
 
 Kcal-calculator-AI is a serverless food classification system that uses deep learning to identify food from a photo and instantly return its estimated calorie content.
 You take a picture. The AI tells you what it is and how many calories it contains per 100g. That's it. No typing, no searching, no manual logging.
@@ -117,12 +108,12 @@ Click **POST /predict → Try it out → Choose File → Execute**.
 
 ## Features planned for implementation
 
-- [ ] Support more food categories (expanding beyond 10 classes)
-- [ ] Portion size estimation from image (not just per 100g)
-- [ ] Meal history logging with daily calorie totals
-- [ ] Simple web front-end for browser-based uploads
-- [ ] Nutrition breakdown beyond calories (protein, carbs, fat)
-- [ ] Mobile app integration via REST API
+-  Support more food categories (expanding beyond 10 classes)
+-  Portion size estimation from image (not just per 100g)
+-  Meal history logging with daily calorie totals
+-  Simple web front-end for browser-based uploads
+-  Nutrition breakdown beyond calories (protein, carbs, fat)
+-  Mobile app integration via REST API
 
 ---
 
@@ -136,7 +127,6 @@ If you're reading this and considering a similar project, start small (10 classe
 ---
 
 <a name="japanese"></a>
-# 🇯🇵 日本語
 
 ## はじめに 
 
@@ -213,12 +203,12 @@ python -m uvicorn app.main:app --reload
 
 ## 実装予定の機能
 
-[ ] 対応食品カテゴリの拡張 (10クラス以上)
-[ ] 画像からの食事量推定 (100g固定ではなく実際の量に対応)
-[ ] 食事履歴の記録と1日の合計カロリー表示
-[ ] ブラウザからアップロードできるシンプルなWebフロントエンド
-[ ] カロリー以外の栄養素情報 (タンパク質・炭水化物・脂質) の表示
-[ ] REST APIを通じたモバイルアプリとの連携
+- 対応食品カテゴリの拡張 (10クラス以上)
+- 画像からの食事量推定 (100g固定ではなく実際の量に対応)
+- 食事履歴の記録と1日の合計カロリー表示
+- ブラウザからアップロードできるシンプルなWebフロントエンド
+-カロリー以外の栄養素情報 (タンパク質・炭水化物・脂質) の表示
+- REST APIを通じたモバイルアプリとの連携
 
 ---
 
