@@ -2,8 +2,8 @@ from fastapi import FastAPI, File, UploadFile
 from PIL import Image
 import io
 
-from model import predict
-from calorie_db import CALORIE_DB
+from .model import predict
+from .calorie_db import CALORIE_DB
 
 app = FastAPI(title="LitteFood AI API")
 

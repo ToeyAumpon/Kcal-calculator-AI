@@ -23,6 +23,7 @@ preprocess = transforms.Compose([
     )
 ])
 
+model = load_trained_model("app/model.pth")
 
 def predict(image):
 
@@ -31,7 +32,7 @@ def predict(image):
 
     input_tensor = preprocess(image)
 
-    input_batch = input_tensor.unsqeeze(0)
+    input_batch = input_tensor.unsqueeze(0)
 
     with torch.no_grad():
         output = model(input_batch)
@@ -44,3 +45,4 @@ def predict(image):
     confidence_score = confidence.item() * 100
 
     return food_name, confidence_score
+
