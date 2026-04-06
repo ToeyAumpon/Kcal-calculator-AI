@@ -15,6 +15,9 @@ The system currently recognises 10 food categories:
 
 ---
 
+## Demo
+
+
 ## Concept 
 
 I am creating this small AI project to learn Python, FastAPI, Google Colab, and PyTorch. Even though I might use AI to help generate the code, my goal is to learn by asking about every single line it creates. I plan to ask questions frequently to make the learning process fun. I hope to apply these skills in my future career.
