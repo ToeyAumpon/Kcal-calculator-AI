@@ -1,0 +1,10 @@
+pizza
+sushi
+ramen
+hamburger
+caesar_salad
+fried_rice
+steak
+hot_dog
+ice_cream
+gyoza
