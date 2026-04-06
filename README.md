@@ -16,7 +16,7 @@ The system currently recognises 10 food categories:
 ---
 
 ## Demo
-
+![App Screenshot](screenshot/レコーディング 2026-04-06 192211.gif)
 
 ## Concept 
 
